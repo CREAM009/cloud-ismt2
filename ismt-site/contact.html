@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | ISMT College Kathmandu</title>
+  <link rel="icon" href="/assets/img/favicon.ico">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body id="contact">
+  <a href="#main-content" class="skip-link">Skip to content</a>
+  <header class="site-header" role="banner">
+    <nav class="navbar" aria-label="Main navigation">
+      <div class="container nav-container">
+        <a href="index.html" class="logo" aria-label="ISMT College Home">ISMT College</a>
+        <button class="nav-toggle" aria-controls="primary-menu" aria-expanded="false" aria-label="Open menu">
+          <span class="burger" aria-hidden="true"></span>
+        </button>
+        <ul id="primary-menu" class="nav-list" role="menubar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main id="main-content" tabindex="-1">
+    <section class="hero container" aria-label="Contact Hero">
+      <div class="hero-content">
+        <h1>Contact Us</h1>
+      </div>
+    </section>
+    <section class="container contact-info" aria-label="Contact Information">
+      <address>
+        <strong>ISMT College</strong><br>
+        Kathmandu, Nepal<br>
+        <a href="tel:+977-1-1234567">+977-1-1234567</a><br>
+        <a href="mailto:info@ismt.edu.np">info@ismt.edu.np</a>
+      </address>
+    </section>
+    <section class="container contact-form-section" aria-label="Contact Form">
+      <form class="contact-form" autocomplete="on" novalidate>
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required aria-required="true" autocomplete="name">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required aria-required="true" autocomplete="email">
+        </div>
+        <div>
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" required aria-required="true">
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <div id="form-messages" aria-live="assertive" class="form-messages"></div>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-container">
+      <div class="footer-contact">
+        <strong>ISMT College</strong><br>
+        Kathmandu, Nepal<br>
+        <a href="tel:+977-1-1234567">+977-1-1234567</a><br>
+        <a href="mailto:info@ismt.edu.np">info@ismt.edu.np</a>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="Twitter">Twitter</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <small>&copy; <span id="year"></span> ISMT College. All rights reserved.</small>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

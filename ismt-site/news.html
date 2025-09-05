@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News & Events | ISMT College Kathmandu</title>
+  <link rel="icon" href="/assets/img/favicon.ico">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body id="news">
+  <a href="#main-content" class="skip-link">Skip to content</a>
+  <header class="site-header" role="banner">
+    <nav class="navbar" aria-label="Main navigation">
+      <div class="container nav-container">
+        <a href="index.html" class="logo" aria-label="ISMT College Home">ISMT College</a>
+        <button class="nav-toggle" aria-controls="primary-menu" aria-expanded="false" aria-label="Open menu">
+          <span class="burger" aria-hidden="true"></span>
+        </button>
+        <ul id="primary-menu" class="nav-list" role="menubar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="news.html" class="active" aria-current="page">News</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main id="main-content" tabindex="-1">
+    <section class="news-filter container" aria-label="Filter news">
+      <label for="news-category">Filter by category:</label>
+      <select id="news-category">
+        <option value="all">All</option>
+        <option value="events">Events</option>
+        <option value="research">Research</option>
+        <option value="campus">Campus</option>
+      </select>
+    </section>
+    <section class="container news-list" aria-label="News List">
+      <div class="news-cards">
+        <article class="card news-card" data-category="events">
+          <time datetime="2025-08-01" class="news-date">Aug 1, 2025</time>
+          <h3 class="news-title">Orientation Program Announced</h3>
+          <p class="news-excerpt">New students are invited to our orientation event. Details coming soon. <a href="#" class="card-link">Read more</a></p>
+        </article>
+        <article class="card news-card" data-category="research">
+          <time datetime="2025-07-15" class="news-date">Jul 15, 2025</time>
+          <h3 class="news-title">ISMT Research Grant</h3>
+          <p class="news-excerpt">Faculty and students can now apply for the 2025 research grant. <a href="#" class="card-link">Read more</a></p>
+        </article>
+        <article class="card news-card" data-category="events">
+          <time datetime="2025-06-30" class="news-date">Jun 30, 2025</time>
+          <h3 class="news-title">Alumni Meetup</h3>
+          <p class="news-excerpt">Reconnect with fellow alumni at our annual gathering in Kathmandu. <a href="#" class="card-link">Read more</a></p>
+        </article>
+        <article class="card news-card" data-category="campus">
+          <time datetime="2025-06-10" class="news-date">Jun 10, 2025</time>
+          <h3 class="news-title">Guest Lecture Series</h3>
+          <p class="news-excerpt">Industry experts will share insights on technology and business trends. <a href="#" class="card-link">Read more</a></p>
+        </article>
+        <article class="card news-card" data-category="campus">
+          <time datetime="2025-05-25" class="news-date">May 25, 2025</time>
+          <h3 class="news-title">New Lab Facilities</h3>
+          <p class="news-excerpt">State-of-the-art labs are now open for student use. <a href="#" class="card-link">Read more</a></p>
+        </article>
+        <article class="card news-card" data-category="research">
+          <time datetime="2025-05-01" class="news-date">May 1, 2025</time>
+          <h3 class="news-title">Scholarship Applications</h3>
+          <p class="news-excerpt">Apply now for merit-based scholarships for the upcoming session. <a href="#" class="card-link">Read more</a></p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-container">
+      <div class="footer-contact">
+        <strong>ISMT College</strong><br>
+        Kathmandu, Nepal<br>
+        <a href="tel:+977-1-1234567">+977-1-1234567</a><br>
+        <a href="mailto:info@ismt.edu.np">info@ismt.edu.np</a>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="news.html" class="active" aria-current="page">News</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="Twitter">Twitter</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <small>&copy; <span id="year"></span> ISMT College. All rights reserved.</small>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
